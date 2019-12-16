@@ -22,7 +22,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "build/"),
     publicPath: "/", //BUNDLED OUTPUT WILL BE SERVED FROM HERE
-    filename: "index.html"
+    filename: "bundle.js"
   },
   devServer: {
     contentBase: path.join(__dirname, "public/"),
