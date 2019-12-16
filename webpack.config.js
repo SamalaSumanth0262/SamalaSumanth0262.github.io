@@ -21,8 +21,8 @@ module.exports = {
   resolve: { extensions: ["*", ".js", ".jsx"] },
   output: {
     path: path.resolve(__dirname, "build/"),
-    publicPath: "/build/", //BUNDLED OUTPUT WILL BE SERVED FROM HERE
-    filename: "bundle.js"
+    publicPath: "/", //BUNDLED OUTPUT WILL BE SERVED FROM HERE
+    filename: "index.html"
   },
   devServer: {
     contentBase: path.join(__dirname, "public/"),
