@@ -1,0 +1,35 @@
+{
+  "name": "samalasumanth0262.github.io",
+  "version": "1.0.0",
+  "description": "GitHub Hosting with React App",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamalaSumanth0262/SamalaSumanth0262.github.io.git"
+  },
+  "author": "SamalaSumanth0262",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamalaSumanth0262/SamalaSumanth0262.github.io/issues"
+  }
+}
