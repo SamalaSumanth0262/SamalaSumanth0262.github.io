@@ -1,14 +1,15 @@
 {
+  "homepage": "https://SamalaSumanth0262.github.io/",
   "name": "samalasumanth0262.github.io",
   "version": "1.0.0",
   "description": "GitHub Hosting with React App",
-  "homepage": "https://SamalaSumanth0262.github.io/",
   "main": "webpack.config.js",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-hot-loader": "^4.12.18"
+    "react-hot-loader": "^4.12.18",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",

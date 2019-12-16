@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 import { hot } from "react-hot-loader";
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <div className='App'>
-        <h1>Comming Soon.... </h1>
-      </div>
+      <Router>
+        <Switch>
+          <Route
+            path='/'
+            component={() => {
+              return <div>Sumanth</div>;
+            }}
+          ></Route>
+        </Switch>
+      </Router>
     );
   }
 }
