@@ -2,10 +2,13 @@
   "name": "samalasumanth0262.github.io",
   "version": "1.0.0",
   "description": "GitHub Hosting with React App",
+  "homepage": "https://SamalaSumanth0262.github.io/",
   "main": "webpack.config.js",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.12.18"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",
@@ -22,7 +25,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode development",
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --mode development",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
