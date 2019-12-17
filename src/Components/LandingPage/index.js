@@ -1,8 +1,12 @@
 import React from "react";
-
+import "./styles.scss";
 class LandingPage extends React.Component {
   render() {
-    return <div>Sumanth</div>;
+    return (
+      <div className='home_page'>
+        <div className='backgroundImage'>Comming Soon....</div>
+      </div>
+    );
   }
 }
 
