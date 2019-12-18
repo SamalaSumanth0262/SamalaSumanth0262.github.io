@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "355e62cdfd4721e183b2";
+/******/ 	var hotCurrentHash = "2cd98a1508517fd06d3c";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -870,7 +870,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".home_page {\\n  height: 100vh;\\n  background-image: url(\\\"https://jessicaroots.com/wp-content/uploads/2018/03/portfolio-background-header.jpg\\\");\\n  background-size: cover;\\n  opacity: 0.5;\\n  z-index: 1;\\n  background-color: rgba(0, 0, 0, 0.5);\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Components/LandingPage/styles.scss?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".home_page {\\n  height: 100vh;\\n  background-image: url(\\\"https://wpamelia.com/wp-content/uploads/2019/02/7644.jpg\\\");\\n  background-size: cover;\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/Components/LandingPage/styles.scss?./node_modules/css-loader");
 
 /***/ }),
 
