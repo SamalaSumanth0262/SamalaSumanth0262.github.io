@@ -2,7 +2,7 @@ import React from 'react';
 
 const Credit = () => {
   return (
-    <aside className='credits aside section ml-5 bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10'>
+    <aside className='credits aside section ml-5 bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10 animate__animated animate__fadeInDown animate__delay-1s'>
       <div className='section-inner'>
         <h2 className='heading'>Social Media</h2>
         <div className='flex flex-wrap'>

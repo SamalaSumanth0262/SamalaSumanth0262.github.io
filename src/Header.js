@@ -4,15 +4,15 @@ const Header = () => {
   return (
     <div className='bg-white dark:bg-gray-700 p-10 tracking-wider rounded-lg shadow-lg'>
       <div className='flex flex-row w-full'>
-        <div className='flex flex-row w-full items-center'>
+        <div className='flex flex-row w-full items-center flex-wrap'>
           <img
             src={SumanthPic}
             alt='Sumanth Samala Profile Image'
-            className='rounded rounded-lg shadow shadow-lg'
+            className='rounded rounded-lg shadow shadow-lg animate__animated animate__fadeInDown animate__delay-1s'
             width={'200px'}
             height='200px'
           />
-          <div className='ml-10'>
+          <div className='ml-10 animate__animated animate__flash'>
             <div className='text-4xl font-bold text-gray-700 mb-3'>
               Sumanth Samala
             </div>
@@ -68,7 +68,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-row items-center w-full flex-reverse justify-end'>
+        <div className='flex flex-row items-center w-full flex-reverse justify-end animate__animated animate__fadeInDown animate__delay-1s'>
           <a href='mailto: chintusamala96@gmail.com'>
             <button
               type='button'

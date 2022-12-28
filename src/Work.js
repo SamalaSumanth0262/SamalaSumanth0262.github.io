@@ -2,7 +2,7 @@ import React from 'react';
 
 const Work = () => {
   return (
-    <div className='bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10 '>
+    <div className='bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10 animate__animated animate__fadeInDown animate__delay-1s'>
       <div className='text-gray-600 text-2xl font-bold mb-10'>
         {' '}
         Work Experience
@@ -16,7 +16,7 @@ const Work = () => {
               width='150px'
               className='mr-2 shadow-xl rounded-lg p-2'
             />
-            Software Developer -{''}
+            Software Developer - II{''}
             <span className='text-gray-700 text-sm'>
               <a href='https://www.talentica.com'> &nbsp;&nbsp;Talentica</a>
             </span>{' '}
