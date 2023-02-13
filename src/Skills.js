@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div className='ml-5 bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10'>
+    <div className='bg-white   text-black text-md font-normal dark_disabled:text-white rounded-lg shadow-xl p-5 mb-10 lg:mt-0 lg:m-10'>
       <div className='text-gray-600 text-2xl font-bold hover:animate-pulse mb-3'>
         {' '}
         Skills 🎯

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const Language = () => {
   return (
-    <aside className='languages aside section ml-5 bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10'>
+    <aside className='languages aside section bg-white   text-black text-md font-normal dark_disabled:text-white rounded-lg shadow-xl p-5 lg:mt-0 lg:m-10'>
       <div className='section-inner'>
         <h2 className='heading'>Languages</h2>
         <div className='content'>

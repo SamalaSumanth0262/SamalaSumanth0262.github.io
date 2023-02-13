@@ -12,15 +12,15 @@ import Inspiration from './Inspiration';
 import Credit from './Credit';
 const Layout = () => {
   return (
-    <div className='p-10 bg-sky-900 dark:bg-white tracking-wider'>
+    <div className='lg:p-10 bg-sky-900 dark_disabled:bg-white tracking-wider'>
       <div className='flex flex-row flex-wrap'>
-        <div className='flex flex-col w-2/3' id='left'>
+        <div className='flex flex-col lg:w-2/3' id='left'>
           <AboutMe />
           <Work />
           <Projects />
           <GitHub />
         </div>
-        <div className='w-1/3' id='right'>
+        <div className='lg:w-1/3' id='right'>
           <Credit />
 
           <ContactInformation />

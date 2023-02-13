@@ -2,15 +2,15 @@ import React from 'react';
 
 const Work = () => {
   return (
-    <div className='bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10 animate__animated animate__fadeInDown animate__delay-1s'>
+    <div className='bg-white   text-black text-md font-normal dark_disabled:text-white rounded-lg shadow-xl p-5 mb-10 animate__animated animate__fadeInDown animate__delay-1s'>
       <div className='text-gray-600 text-2xl font-bold mb-10'>
         {' '}
         Work Experience
       </div>
-      <hr class='my-3 h-px bg-gray-200 border-0 dark:bg-gray-700'></hr>
+      <hr class='my-3 h-px bg-gray-200 border-0 dark_disabled:bg-gray-700'></hr>
       <div className='content'>
         <div className='item mb-5'>
-          <h3 className='text-black font-bold text-xl mb-2 flex items-center hover:text-green-800'>
+          <h3 className='text-black font-bold text-xl mb-2 flex items-center hover:text-green-800 flex flex-wrap'>
             <img
               src='https://www.talentica.com/wp-content/uploads/2021/09/Talentica-Logo.svg'
               width='150px'
@@ -31,9 +31,9 @@ const Work = () => {
             Equifax and Finicity, Asset and Income Verification with Empinfo.
           </p>
         </div>
-        <hr class='my-3 h-px bg-gray-200 border-0 dark:bg-gray-700'></hr>
+        <hr class='my-3 h-px bg-gray-200 border-0 dark_disabled:bg-gray-700'></hr>
         <div className='item mb-5'>
-          <h3 className='text-black font-bold text-xl mb-2 flex items-center hover:text-green-800'>
+          <h3 className='text-black font-bold text-xl mb-2 flex items-center hover:text-green-800 flex flex-wrap'>
             <img
               src='https://d2667ouk2zvn9v.cloudfront.net/assets/ekincare_logo-157564d02447db7b7cd58fc1367e79245d1eae693b2f63f558ef08cb84034774.png'
               width='150px'
@@ -55,9 +55,9 @@ const Work = () => {
             worker.
           </p>
         </div>
-        <hr class='my-3 h-px bg-gray-200 border-0 dark:bg-gray-700'></hr>
+        <hr class='my-3 h-px bg-gray-200 border-0 dark_disabled:bg-gray-700'></hr>
         <div className='item mb-5'>
-          <h3 className='text-black font-bold text-xl mb-2 flex items-center hover:text-green-800'>
+          <h3 className='text-black font-bold text-xl mb-2 flex items-center hover:text-green-800 flex flex-wrap'>
             <img
               src='https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/057da749-0497-4be1-a2c7-6a6a5bc36590.png'
               width='150px'
@@ -80,10 +80,10 @@ const Work = () => {
             and <b>Syndicates</b> ( Client Side ).
           </p>
         </div>
-        <hr class='my-3 h-px bg-gray-200 border-0 dark:bg-gray-700'></hr>
+        <hr class='my-3 h-px bg-gray-200 border-0 dark_disabled:bg-gray-700'></hr>
         {/*//item mb-5*/}
         <div className='item mb-5'>
-          <h3 className='text-black font-bold text-xl mb-2 flex items-center hover:text-green-800'>
+          <h3 className='text-black font-bold text-xl mb-2 flex items-center hover:text-green-800 flex flex-wrap'>
             Internship - Java:{' '}
             <span className='text-gray-700 text-sm'>
               <a href='#'>&nbsp;&nbsp;Kveninar Technologies</a>

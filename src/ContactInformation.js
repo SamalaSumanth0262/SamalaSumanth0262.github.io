@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactInformation = () => {
   return (
-    <div className='ml-5 bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10 animate__animated animate__fadeInDown animate__delay-1s'>
+    <div className='bg-white  text-black text-md font-normal dark_disabled:text-white rounded-lg shadow-xl p-5 mb-10 animate__animated animate__fadeInDown animate__delay-1s lg:mt-0 lg:m-10'>
       <div className='content'>
         <ul className='list-unstyled flex flex-col'>
           <li className=' mb-3 text-green-900 hover:underline'>

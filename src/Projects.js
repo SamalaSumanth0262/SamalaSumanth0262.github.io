@@ -12,14 +12,14 @@ import Parser from 'html-react-parser';
 const ProjectInfo = ({ project }) => {
   return (
     <>
-      <div className='flex flex-row justify-between items-center hover:bg-gray-100'>
+      <div className='flex flex-row justify-between items-center hover:bg-gray-100 flex-wrap xs:items-center'>
         {project.image !== '' && (
-          <div className='text-gray-600 text-2xl font-bold w-full w-1/3'>
+          <div className='text-gray-600 text-2xl font-bold lg:w-1/6'>
             <img
               src={project.image}
               className='rounded-lg shadow-sm hover:shadow-xl'
-              // height={'100%'}
-              // width={'auto'}
+              height={'100%'}
+              width={'100%'}
             />
           </div>
         )}
@@ -52,7 +52,7 @@ const ProjectInfo = ({ project }) => {
           </>
         </div>
       </div>
-      <hr class='my-8 h-px bg-gray-200 border-0 dark:bg-gray-700'></hr>
+      <hr class='my-8 h-px bg-gray-200 border-0 dark_disabled:bg-gray-700'></hr>
     </>
   );
 };
@@ -139,7 +139,7 @@ const Projects = () => {
   ];
   return (
     <>
-      <div className='bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10 '>
+      <div className='bg-white   text-black text-md font-normal dark_disabled:text-white rounded-lg shadow-xl p-5 mb-10 '>
         <div className='text-gray-600 text-2xl font-bold mb-10'>
           {' '}
           My Projects
@@ -148,7 +148,7 @@ const Projects = () => {
           return <ProjectInfo project={project} />;
         })}
       </div>
-      <div className='bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10 '>
+      <div className='bg-white   text-black text-md font-normal dark_disabled:text-white rounded-lg shadow-xl p-5 mb-10 '>
         <div className='text-gray-600 text-2xl font-bold mb-10'>
           {' '}
           Other Free Lancing Projects

@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div className='bg-white dark:bg-gray-600 text-black text-md font-normal dark:text-white rounded-lg shadow-xl p-5 mb-10 animate__animated animate__fadeInDown animate__delay-1s'>
+    <div className='bg-white text-black text-md font-normal dark_disabled:text-white rounded-lg shadow-xl p-5 mb-10 animate__animated animate__fadeInDown animate__delay-1s'>
       <div className='text-gray-600 text-2xl font-bold hover:animate-pulse'>
         {' '}
         About Me 💻
